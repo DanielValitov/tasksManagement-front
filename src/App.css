@@ -1,0 +1,254 @@
+html, body, #root, .APP {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: "Nunito", serif;
+}
+
+h3 {
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+h4, p{
+    padding: 0;
+    margin: 0;
+}
+
+.APP {
+    display: grid;
+    grid-template-columns: 15% 85%;
+}
+
+.Navbar {
+    height: 100%;
+    background-color: rgba(255, 229, 182, 0.67);
+}
+
+.profile-header-block {
+    height: 30px;
+    display: flex;
+    gap: 10px;
+    padding: 20px;
+    justify-content: center;
+    background-color: #ffde9c;
+}
+.profile-header-block img{
+    max-width: 30px;
+    max-height: 30px;
+    border-radius: 50%;
+}
+.navlinks {
+    padding: 40px;
+}
+
+.navlinks ul li {
+    font-size: 18px;
+    margin-bottom: 10px;
+    list-style-type: none
+}
+
+.openModalWindowBtn{
+    background: none;
+    border: none;
+    font-family: "Nunito", serif;
+}
+
+.navlink {
+    text-decoration: none;
+    color: black;
+}
+
+.navlinks ul li:first-child {
+    margin-bottom: 30px
+}
+
+.navlinks ul li:last-child {
+    margin-top: 30px
+}
+
+.MainBlock {
+    padding: 50px;
+    box-shadow: inset 0 0 30px bisque;
+}
+
+.preview-block-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 30px 0;
+}
+.preview-block{
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.preview div{
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.TasksPage_container {
+    margin-top: 30px;
+    display: flex;
+    gap: 200px;
+}
+.TasksFolder {
+    background-color: blanchedalmond;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 50px;
+}
+
+/*.new-task-form {*/
+/*    margin-top: 30px;*/
+/*}*/
+
+.new-task-form input {
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: whitesmoke;
+    display: block;
+    margin-top: 20px;
+    width: 400px;
+}
+
+.new-task-form textarea {
+    padding: 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    display: block;
+    margin-top: 20px;
+    resize: none;
+    width: 400px;
+    height: 100px;
+}
+
+.new-task-form button {
+    background-color: blanchedalmond;
+    width: 440px;
+    padding: 20px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.PTTG_card {
+    background-color: blanchedalmond;
+    padding: 20px;
+    max-width: 450px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.PTTG_card_maininfo {
+    margin-top: 20px;
+}
+
+.deleteBtn {
+    width: fit-content;
+    height: fit-content;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+.deleteBtn img {
+    width: 20px;
+    height: 20px;
+}
+
+.modalWindow{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 0.5em 0.5em rgba(0, 0, 0, 0.25);
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+}
+.modal-content {
+    display: flex;
+    gap: 30px;
+    align-items: baseline;
+}
+.closePopupBtn {
+    background: none;
+    border: none;
+}
+.closePopupBtn img {
+    width: 30px;
+    height: 30px;
+}
+
+.ProfilePage .preview-block-container{
+    margin-top: 50px;
+}
+
+.profile_img{
+    max-width: 350px;
+    max-height: 350px;
+    border-radius: 20px;
+}
+
+.profileDataBlock {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.profileDataBlock button {
+    padding: 10px;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 20px;
+    font-family: "Nunito", serif;
+    font-weight: bold;
+}
+
+.profileDataBlock p {
+    font-size: 18px;
+}
+
+.input {
+    width: 350px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: whitesmoke;
+    margin-bottom: 10px;
+}
+
+.input::placeholder {
+    font-family: "Nunito", serif;
+}
+
+.accountSubmitFormBtn{
+    width: 380px;
+    height: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: blanchedalmond;
+    font-family: "Nunito", serif;
+}
+
+.signupLoginLink {
+    margin-top: 20px;
+}
